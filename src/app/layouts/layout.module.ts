@@ -36,6 +36,7 @@ import { ServicesCarouselComponent } from './shared-sections/services-carousel/s
 
 import { WINDOW_PROVIDERS } from '../shared/helpers/window.helper';
 import { TeamComponent } from './shared-sections/team/team.component';
+import { TeamsComponent } from './shared-sections/teams/teams.component';
 
 
 @NgModule({
@@ -73,7 +74,7 @@ import { TeamComponent } from './shared-sections/team/team.component';
     TestimonialsComponent, 
     PortfolioCarouselComponent,  
     TestimonialsCarouselComponent, 
-    ServicesCarouselComponent, TeamComponent
+    ServicesCarouselComponent, TeamComponent, TeamsComponent
   ],
   providers: [WINDOW_PROVIDERS]
 
