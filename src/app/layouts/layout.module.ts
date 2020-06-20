@@ -35,7 +35,7 @@ import { TestimonialsCarouselComponent } from './shared-sections/testimonials-ca
 import { ServicesCarouselComponent } from './shared-sections/services-carousel/services-carousel.component';
 
 import { WINDOW_PROVIDERS } from '../shared/helpers/window.helper';
-import { TeamComponent } from './shared-sections/team/team.component';
+//import { TeamComponent } from './shared-sections/team/team.component';
 import { TeamsComponent } from './shared-sections/teams/teams.component';
 
 
@@ -74,7 +74,7 @@ import { TeamsComponent } from './shared-sections/teams/teams.component';
     TestimonialsComponent, 
     PortfolioCarouselComponent,  
     TestimonialsCarouselComponent, 
-    ServicesCarouselComponent, TeamComponent, TeamsComponent
+    ServicesCarouselComponent, TeamsComponent
   ],
   providers: [WINDOW_PROVIDERS]
 
