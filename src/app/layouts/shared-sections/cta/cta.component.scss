@@ -1,0 +1,19 @@
+.call-to-action {
+  color: #ffffff;
+  background-color:#FF8C00 !important;
+}
+
+#infoButton {
+  background-color: rgba(255, 255, 255, 0.603);
+  color: rgb(82, 79, 79);
+}
+
+h2 {
+  color:rgb(82, 79, 79) ;
+}
+
+@media(max-width:960px){
+  .call-to-action{
+    text-align: center;
+    }
+}
